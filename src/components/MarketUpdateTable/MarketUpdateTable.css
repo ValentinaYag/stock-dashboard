@@ -1,0 +1,31 @@
+.mini-graph {
+  display: flex;
+  justify-content: center; /* ✅ Ensures center alignment */
+  align-items: center; /* ✅ Aligns vertically */
+  height: 40px;
+  overflow: hidden;
+}
+
+.market-update-table td {
+  text-align: center; /* ✅ Centers the entire column content */
+  vertical-align: middle;
+}
+
+  .mini-graph .graph-bar {
+    flex: 1;
+    width: 4px;
+    border-radius: 2px;
+    transition: background-color 0.3s;
+  }
+
+
+  .graph-container {
+    width: 100px; /* Set explicit width */
+    height: 50px; /* Set explicit height */
+    overflow: hidden; /* Ensure no extra scrollbars */
+  }
+  .market-update-table td {
+    display: table-cell; /* Ensure it behaves like a table cell */
+    vertical-align: middle; /* Align content properly */
+    text-align: center; /* Center text and graphs */
+  }

@@ -1,0 +1,23 @@
+.commodity-price {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.commodity-price h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.commodity-price p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.commodity-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
