@@ -1,83 +1,82 @@
 .markets {
-    background-color: #131313;
-    color: #fff;
-    border-radius: 12px;
-    padding: 20px;
-    max-width: 600px;
-    margin: 0 auto;
-  }
+  background-color: #191D23;
+  color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 600px;
+}
 
-  .markets h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
+.markets h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 
-  .tabs {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
+.markets .tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
 
-  .tab-button {
-    background: #1c1c1c;
-    color: #aaa;
-    border: none;
-    border-radius: 8px;
-    padding: 8px 12px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
+.markets .tab-button {
+  background: #131313;
+  color: #aaa;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
 
-  .tab-button.active {
-    background: #333;
-    color: #fff;
-  }
+.markets .tab-button.active {
+  color: #1A71FF;
+  background: #131313;
+}
 
-  .tab-button:hover {
-    background: #333;
-  }
+.markets .tab-button:hover {
+  background: #333;
+}
 
-  .market-table {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
+.market-table {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-  .market-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1c1c1c;
-    border-radius: 8px;
-    padding: 10px 15px;
-  }
+.market-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
 
-  .market-title,
-  .market-type,
-  .market-price,
-  .market-change {
-    font-size: 1rem;
-  }
+.market-title,
+.market-type,
+.market-price,
+.market-change {
+  font-size: 1rem;
+}
 
-  .market-change.positive {
-    color: #28a745;
-  }
+.market-change.positive {
+  color: #28a745;
+}
 
-  .market-change.negative {
-    color: #dc3545;
-  }
+.market-change.negative {
+  color: #dc3545;
+}
 
-  .view-all {
-    margin-top: 20px;
-    padding: 8px 12px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
+.view-all {
+  margin-top: 20px;
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
 
-  .view-all:hover {
-    background-color: #444;
-  }
+.view-all:hover {
+  background-color: #444;
+}

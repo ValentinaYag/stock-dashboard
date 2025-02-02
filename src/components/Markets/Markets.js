@@ -40,9 +40,8 @@ function Markets() {
             <span className="market-type">{item.type}</span>
             <span className="market-price">{item.price}</span>
             <span
-              className={`market-change ${
-                item.change >= 0 ? "positive" : "negative"
-              }`}
+              className={`market-change ${item.change >= 0 ? "positive" : "negative"
+                }`}
             >
               {item.change >= 0 ? `+${item.change}%` : `${item.change}%`}
             </span>

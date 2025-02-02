@@ -1,29 +1,29 @@
 .holidays-circle {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-  }
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
 
-  .holidays-circle svg {
-    transform: rotate(-90deg); /* Ensure progress starts at the top */
-  }
+.holidays-circle svg {
+  transform: rotate(-90deg);
+}
 
-  circle {
-    transition: stroke-dashoffset 0.35s ease;
-    transform-origin: 50% 50%;
-  }
+circle {
+  transition: stroke-dashoffset 0.35s ease;
+  transform-origin: 50% 50%;
+}
 
-  .holiday-label {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1rem; /* Adjust text size for better fit */
-    font-weight: bold;
-    text-align: center;
-    color: #000;
-  }
+.holiday-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}

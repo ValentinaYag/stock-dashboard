@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
 .App {
   text-align: center;
 }
@@ -28,21 +29,6 @@ body {
   color: white;
 }
 
-.highlights-section {
-  display: flex;
-  justify-content: space-between; /* Spaces out items evenly */
-  align-items: center; /* Centers them vertically */
-  padding: 20px; /* Add some spacing */
-  gap: 2rem; /* Adds space between the elements */
-}
-
-
-
-.holiday-circle {
-  max-width: 250px; /* Keeps the Holiday Circle from stretching */
-}
-
-
 .App-link {
   color: #61dafb;
 }
@@ -51,6 +37,7 @@ body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
